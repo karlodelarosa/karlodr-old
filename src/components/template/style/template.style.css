@@ -1,0 +1,12 @@
+@import '../../../assets/index.css';
+
+.nav-menu {
+  @apply border-b-4 border-transparent transition-all duration-100 hover:border-[#00D3E0] text-white px-[5px] pb-[10px];
+}
+
+.main-content {
+  background: rgb(56,56,56);
+  background: radial-gradient(circle, rgb(54 54 54) 0%, rgb(18 18 18) 107%);
+  /* padding-top: 75px; */
+  /* padding-left: 90px; */
+}
