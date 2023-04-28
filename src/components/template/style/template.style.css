@@ -1,7 +1,7 @@
 @import '../../../assets/index.css';
 
 .nav-menu {
-  @apply border-b-4 border-transparent transition-all duration-100 hover:border-[#00D3E0] text-white px-[5px] pb-[10px];
+  @apply border-b-4 border-transparent transition-all duration-100 hover:border-[#00D3E0] text-gray-500 px-[5px] pb-[10px];
 }
 
 .main-content {
