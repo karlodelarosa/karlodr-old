@@ -2,3 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.hero-banner {
+  background-image: url('images/sunset_planet.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #fafafa;
+  backdrop-filter: brightness(.6);
+}

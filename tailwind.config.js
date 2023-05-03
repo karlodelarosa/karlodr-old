@@ -11,13 +11,12 @@ export default {
       },
       keyframes: {
         blur: {
-          '0%': { filter: "blur(5px)" },
-          '50%': { filter: "blur(0px)" },
-          '100%': { filter: "blur(5px)" }
+          '0%': { filter: "blur(15px)" },
+          '100%': { filter: "blur(0px)" }
         },
       },
       animation: {
-        'blur': 'blur 5s infinite ',
+        'blur': 'blur 3s ease-in',
       },
     },
   },
